@@ -1,7 +1,7 @@
 # Laravel Japanese Validation
 
 
-ConohaのAPIをLaravelで利用する (メール機能)
+ConohaのAPIをLaravelで利用する (メール)
 
 Laravel 5.5+
 
@@ -106,7 +106,7 @@ return [
 |一覧|GET|api/domain/{domain_id}/email/{email_id}/message| |
 |参照|GET|api/domain/{domain_id}/email/{email_id}/message/{message_id}| |
 
-※ routeについては`RouteServiceProvider`で読み込んでいる[api.php](https://github.com/xzxzyzyz/larave-conoha-api/src/Http/api.php)を参照
+※ routeについては`RouteServiceProvider`で読み込んでいる[api.php](https://github.com/xzxzyzyz/laravel-conoha-api/blob/master/src/Http/api.php)を参照
 
 
 ## Events
