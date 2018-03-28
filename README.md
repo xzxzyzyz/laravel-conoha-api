@@ -1,4 +1,4 @@
-# Laravel Japanese Validation
+# Laravel Conoha API
 
 
 ConohaのAPIをLaravelで利用する (メール)
@@ -44,7 +44,7 @@ composer require xzxzyzyz/laravel-conoha-api
 
 `.env`へ追加
 
-```env
+```
 CONOHA_SERVICE_ID=your_service_id # サーバー ->サーバー情報 -> UUID
 CONOHA_TENANT_ID=your_tenant_id # API -> テナント情報 -> テナントID
 CONOHA_API_USERNAME=your_api_username # API -> APIユーザー -> ユーザー名
